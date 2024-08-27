@@ -11,10 +11,10 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
 // [ Agrega el número que será Bot y los que serán propietarios. ]
 global.owner = [
-["50250101139", 'Wilmer ofc', true],
-["50258115623"], 
-["51967997782"],
-["573504664356"]
+["201115618853", 'Wilmer ofc', true],
+["201115618853"], 
+["201115618853"],
+["201115618853"]
 ]
 
 global.mods = []
@@ -22,7 +22,7 @@ global.prems = []
 
 global.isBaileysFail = false
 
-global.tagusario = ['50250101139'];
+global.tagusario = ['201115618853'];
 
 global.obtenerQrWeb = 0; //1 o 0
 global.keepAliveRender = 0; // 1 o 0
@@ -108,8 +108,8 @@ global.desc = '' // Add short description (20 caractres max)
 global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
 global.country = '' // Add country, example: 🇪🇨
 //------------------------------------------------
-global.fantasy = "𝐍𝐚𝐭𝐬𝐮𝐤𝐢𝐁𝐨𝐭 ᵖᵒʷᵒʳᵉᵈ ᵇʸ\n𝔚𝔦𝔩𝔪𝔢𝔯 𝖔𝖋𝖎𝖈𝖎𝖆𝖑" // new name
-global.wilmerofc = "𝐍𝐚𝐭𝐬𝐮𝐤𝐢𝐁𝐨𝐭 ☃️" // fkontak2
+global.fantasy = "𝑺𝐴𝐹𝑅O𝑇-𝐵O𝑇" // new name
+global.wilmerofc = "𝑺𝐴𝐹𝑅O𝑇-𝐵O𝑇" // fkontak2
 global.packname = `├┈‧͙⁺˚･༓☾ 𝚆𝙸𝙻𝙼𝙴𝚁 𝙾𝙵𝙲 ☽༓･˚⁺‧͙\n├┈ ⟴ 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n├┈ @wilmer.oficial\n├┈ ⟴ 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n├┈ @cmwilmer4\n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
 global.author =  ` ├┈‧͙･༓☾ 𝚆𝙸𝙻𝙼𝙴𝚁 𝙾𝙵𝙲 ☽༓･˚\n├┈⟴ 𝙶𝚒𝚝𝙷𝚞𝚋:\n├┈ Wilsmac\n├┈ ⟴ 𝙿𝚊𝚢𝙿𝚊𝚕:\n├┈ @wilmermacu1\n╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
 
@@ -140,7 +140,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 global.vs = "1.8.0"
 global.vsJB = "3.0"
-global.gt = "𝐍𝐚𝐭𝐬𝐮𝐤𝐢𝐁𝐨𝐭 ☃️"
+global.gt = "𝑺𝐴𝐹𝑅O𝑇-𝐵O𝑇"
 
 global.canalofc = "https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43"
 global.yt = "https://youtube.com/@wilmer.oficial"
@@ -152,9 +152,9 @@ global.tk = "https://www.tiktok.com/@wilsmac4"
 global.ths = "https://www.threads.net/@cmwilmer4"
 global.paypal = 'https://paypal.me/'
 global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
-global.bot = 'wa.me/50250101139'
+global.bot = 'wa.me/201115618853'
 
-global.nna = 'https://www.atom.bio/Wilsmac/' // Cuentas
+global.nna = 'https://www.atom.bio/safrotbob-376/' // Cuentas
 global.nn2 = 'https://t.me/' // 
 global.nna2 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //Anime y social 
 global.nn = 'https://chat.whatsapp.com/CPASQk25rExCIEdlkrOfBz' // FantasyBot-MD 
@@ -199,14 +199,14 @@ global.exito = eg
 
 //------------------------------------------------
 
-global.wm = "𝑾𝒊𝒍𝒎𝒆𝒓 𝒐𝒇𝒄"
-global.igfg = "𝐍𝐚𝐭𝐬𝐮𝐤𝐢𝐁𝐨𝐭 🌺"
-global.wait = "⌛ *`Cargando...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
-global.waitt = "⏳ *`Cargando....`*\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
-global.waittt = "⌛ *`Cargando...`*\n*✦✦✦✦✦✦⊹⊹⊹⊹✪* `[60%]`"
-global.waitttt = "⏳ *`Cargando....`*\n*✦✦✦✦✦✦✦✦⊹⊹✪* `[80%]`"
-global.waittttt = "⌛ *`Procesando...`*\n*✦✦✦✦✦✦✦✦✦✦✪* `[100%]`"
-global.nomorown = "50250101139"
+global.wm = "𝙎𝙖𝙛𝙧𝙤𝙩-𝙈𝘿"
+global.igfg = "𝑺𝐴𝐹𝑅O𝑇-𝐵O𝑇"
+global.wait = "⌛ *`جاري التحميل...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
+global.waitt = "⏳*`جاري التحميل...`\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
+global.waittt = "⌛ *`جاري التحميل...`*\n*✦✦✦✦✦✦⊹⊹⊹⊹✪* `[60%]`"
+global.waitttt = "⏳ *`جاري التحمبل....`*\n*✦✦✦✦✦✦✦✦⊹⊹✪* `[80%]`"
+global.waittttt = "⌛ *`صلي علي النبي🫠...`*\n*✦✦✦✦✦✦✦✦✦✦✪* `[100%]`"
+global.nomorown = "201115618853"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 
 //-----------------------------------------------
