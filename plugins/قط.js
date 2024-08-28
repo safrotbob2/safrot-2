@@ -4,15 +4,15 @@ try {
 let res = await fetch('https://cataas.com/cat')
 let img = await res.buffer()
 let caption = `
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿
+ 𝑺𝐴𝐹𝑅O𝑇-𝐵O𝑇
 `.trim()
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 } catch (e) {
 console.log(e)
-throw '*Error!*'
+throw '*\`『 حدث خطاء 🥺 』\`*'
 }}
-handler.help = ['cat']
+handler.help = ['قط']
 handler.tags = ['random']
-handler.command = /^cat$/i
+handler.command = /^قط$/i
 handler.fail = null
 export default handler
