@@ -42,7 +42,7 @@ let handler = async (m, { isROwner, usedPrefix, command, text }) => {
 
 handler.help = ['createplugin'];
 handler.tags = ['owner'];
-handler.command = /^(createplugin|cp|باتش-اضافه)$/i;
+handler.command = /^(createplugin|ww|باتش-اضافه)$/i;
 handler.rowner = true;
 
 export default handler;
