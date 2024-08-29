@@ -226,29 +226,29 @@ global.imagen11 = fs.readFileSync("./media/menus/img10.jpg")
 global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
-global.img = 'https://telegra.ph/file/6114942024c7658478830.jpg'
-global.img2 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
+global.img = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img2 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
 
 global.img3 = 'https://i.imgur.com/oUAGYc2.jpg' //prem
 global.img4 = 'https://i.imgur.com/i0pccuo.jpg' //prem
 
-global.img5 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
-global.img6 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
-global.img7 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
-global.img8 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
-global.img9 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
+global.img5 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img6 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img7 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img8 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img9 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
 
-global.img10 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
-global.img11 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
-global.img12 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
-global.img13 = 'https://i.imgur.com/pCfFOgw.jpeg'
-global.img14 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
-global.img15 = 'https://telegra.ph/file/418da430e42952c392751.jpg'
+global.img10 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img11 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img12 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img13 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img14 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img15 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
 
-global.img16 = 'https://telegra.ph/file/6114942024c7658478830.jpg' //+18
+global.img16 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg' //+18
 
-global.img17 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
-global.img18 = 'https://telegra.ph/file/6114942024c7658478830.jpg'
+global.img17 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
+global.img18 = 'https://telegra.ph/file/4b4f3f51100e7d90eeb8f.jpg'
 
 global.logogit = 'https://tinyurl.com/2qvl9vgs'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
