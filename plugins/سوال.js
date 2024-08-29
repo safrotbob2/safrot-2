@@ -1,5 +1,3 @@
-
-
 import fs from 'fs'
 
 let timeout = 10000
@@ -9,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.tekateki = conn.tekateki ? conn.tekateki : {}
     let id = m.chat
     if (id in conn.tekateki) {
-        conn.reply(m.chat, 'Todavía hay una pregunta sin responder en este chat', conn.tekateki[id][0])
+        conn.reply(m.chat, '*\`『 لسه عندك سوال مجوبش عليه🐤🔪 』\`*', conn.tekateki[id][0])
         throw false
     }
     let tekateki = JSON.parse(fs.readFileSync(`./src/game/trivia.json`))
@@ -19,23 +17,23 @@ let handler = async (m, { conn, usedPrefix }) => {
     let caption = `
 ⷮ *${json.question}*
 
-*• Tiempo:* ${(timeout / 1000).toFixed(2)} segundos
-*• Bono:* +${poin} Exp
+*• الوقت:* ${(timeout / 1000).toFixed(2)} ثانية
+*• المكافأة:* +${poin} نقاط
 
-💫 Responde a este mensaje con la letra de la opción correcta ✅
+رد علي الاجابه بلحروف✅
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
         json, poin,
         setTimeout(async () => {
-            if (conn.tekateki[id]) await conn.reply(m.chat, `Se acabó el tiempo!`, conn.tekateki[id][0])
+            if (conn.tekateki[id]) await conn.reply(m.chat, `انتهى الوقت!`, conn.tekateki[id][0])
             delete conn.tekateki[id]
         }, timeout)
     ]
 }
 
-handler.help = ['trivia']
+handler.help = ['سوال']
 handler.tags = ['game']
-handler.command = /^(trivia|triviador)$/i
+handler.command = /^(سوال|triviador)$/i
 
 export default handler
