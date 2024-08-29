@@ -13,7 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || q.mediaType || ''
     if (/webp|image|video/g.test(mime)) {
-      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼: الفيديو لازم يكون مدته أقل من 7 ثواني!!')
+      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply(': الفيديو لازم يكون مدته أقل من 7 ثواني!!')
       let img = await q.download?.()
       if (!img) throw `> ⓘ _اعمل ريب ع الصوره الي عايز تحولها ملصق ${usedPrefix + command}_`
       let out
