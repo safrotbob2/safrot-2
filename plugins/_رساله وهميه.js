@@ -13,7 +13,7 @@ let handler = async (m, { conn, args }) => {
     let sap = ['مرحبا', 'صباح الخير', 'يا سلام', 'أهلاً', 'بوت']
     let sgh = md
     let sgc = nnn
-    let gata = 'https://i.imgur.com/EXTbyyn.jpg'
+    let gata = 'https://telegra.ph/file/c5325b68c797984847ba3.jpg'
     //let logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
     let pp = await conn.profilePictureUrl(who).catch(_ => gata)
 
