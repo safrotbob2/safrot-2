@@ -13,15 +13,15 @@ bot = global.db.data.settings[this.user.jid] || {}
 
 if (bot.antiPrivate && !isOwner && !isROwner) {
 if (user.counterPrivate === 0) {
-mensaje = `*@${m.sender.split`@`[0]} 𝐄𝐒𝐓𝐀 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐄𝐒𝐂𝐑𝐈𝐁𝐈𝐑 𝐀𝐋 𝐏𝐑𝐈𝐁𝐀𝐃𝐎 𝐃𝐄 𝐄𝐒𝐓𝐄 𝐁𝐎𝐓.*\n\ \`𝐏𝐑𝐈𝐌𝐄𝐑𝐀 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀\` `
-  
+mensaje = `*@${m.sender.split`@`[0]} ممنوع تبعت للخاص للبوت ده.\n\ دي أول تحذير ليك! `
+
 } else if (user.counterPrivate === 1) {
 let grupos = [ nn, nnn, nnnt, nnntt, nnnttt ].getRandom()
-mensaje = `*@${m.sender.split`@`[0]} 𝐒𝐄 𝐀 𝐌𝐄𝐍𝐂𝐈𝐎𝐍𝐀𝐃𝐎 𝐐𝐔𝐄 𝐍𝐎 𝐒𝐄 𝐏𝐔𝐄𝐃𝐄 𝐄𝐒𝐂𝐑𝐈𝐁𝐈𝐑 𝐀𝐋 𝐏𝐑𝐈𝐕𝐀𝐃𝐎. 𝐒𝐈 𝐄𝐒𝐂𝐑𝐈𝐁𝐄𝐒 𝐍𝐔𝐄𝐕𝐀𝐌𝐄𝐍𝐓𝐄 𝐀 𝐄𝐒𝐓𝐄 𝐁𝐎𝐓 𝐒𝐄𝐑𝐀𝐒 𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐃𝐎 \n\n \`𝐒𝐄𝐆𝐔𝐍𝐃𝐀 𝐀𝐃𝐕𝐄𝐑𝐓𝐄𝐍𝐂𝐈𝐀\` `
-  
+mensaje = `*@${m.sender.split`@`[0]} بقولك متبعتش للخاص تاني. لو بعت تاني هتحظر.\n\n دي تاني تحذير ليك! `
+
 } else if (user.counterPrivate === 2) {
-mensaje = `*@${m.sender.split`@`[0]} 𝐏𝐀𝐑𝐀 𝐔𝐒𝐀𝐑 𝐄𝐋 𝐁𝐎𝐓 𝐔𝐍𝐄𝐓𝐄 𝐀 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎: ${grupos}\n\n \`𝐄𝐍 𝐄𝐒𝐓𝐄 𝐌𝐎𝐌𝐄𝐍𝐓𝐎 𝐒𝐄𝐑𝐀𝐒 𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐃𝐎\` `
-  
+mensaje = `*@${m.sender.split`@`[0]} عشان تستعمل البوت، ادخل على الجروب ده: ${grupos}\n\n دلوقتي هتحظر! `
+
 user.counterPrivate = -1
 await this.updateBlockStatus(m.sender, 'block')
 }
@@ -29,4 +29,3 @@ user.counterPrivate++
 }
 return !1
 }
-
