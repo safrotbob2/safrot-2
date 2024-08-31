@@ -20,8 +20,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     conn.sendFile(m.chat, audio.data, 'error.mp3', '', m, null, { mimetype: 'audio/mp4' })
 }
 
-handler.help = ['تحويل (رد)']
+handler.help = ['لصوت (رد)']
 handler.tags = ['الصوت']
-handler.command = ['تحويل', 'تحويل_الصوت', 'mp3']
+handler.command = ['لصوت', 'تحويل_الصوت', 'mp3']
 
 export default handler
