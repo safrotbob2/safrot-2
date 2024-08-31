@@ -17,6 +17,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['اسكربتي'];
 handler.tags = ['مالك'];
 handler.command = /^اسكربتي|actualizar$/i;
-
+handler.rowner = true;
 
 export default handler;
